@@ -29,13 +29,13 @@ int main(void)
 
     root = NULL;
     node = heap_insert(&root, 98);
-    printf("Inserted: %d\n", node->n);
+    printf("Inserted: %d\n", 98);
     binary_tree_print(root);
     node = heap_insert(&root, 402);
-    printf("\nInserted: %d\n", node->n);
+    printf("\nInserted: %d\n", 402);
     binary_tree_print(root);
     node = heap_insert(&root, 12);
-    printf("\nInserted: %d\n", node->n);
+    printf("\nInserted: %d\n", 12);
     binary_tree_print(root);
     node = heap_insert(&root, 46);
     printf("\nInserted: %d\n", node->n);
