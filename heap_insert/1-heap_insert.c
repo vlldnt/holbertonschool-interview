@@ -78,7 +78,7 @@ heap_t *heap_insert(heap_t **root, int value)
 {
 	heap_t *new_node;
 
-	/* Check for invalid root pointer */
+	/* Check if root not existing pointer */
 	if (root == NULL)
 		return (NULL);
 
@@ -92,5 +92,10 @@ heap_t *heap_insert(heap_t **root, int value)
 	/* Insert the new node at the bottom and restore heap property */
 	new_node = insert_bottom(*root, value);
 	swap_node(new_node);
+
+	/* Ensure we return the new node containing the inserted value */
+	while (new_node->parent && new_node->n != value)
+		new_node = new_node->parent;
+
 	return (new_node);
 }
