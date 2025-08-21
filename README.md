@@ -1,8 +1,14 @@
-# 🎓 Holberton School - Interview Preparation
+# <img src="https://cdn.prod.website-files.com/6105315644a26f77912a1ada/63eea844ae4e3022154e2878_Holberton-p-500.png" width="130px" alt="Holberton School"> - **Interview Preparation**
 
 *This repository features diverse algorithmic and technical interview preparation projects from Holberton School, each designed to improve data structure understanding, algorithmic thinking, and coding efficiency.*
 
 1. **[Lockboxes:](https://github.com/vlldnt/holbertonschool-interview/tree/main/lockboxes)** Checks if all boxes can be opened based on the keys inside each box, in <img src="https://camo.githubusercontent.com/74916dd06a2b3a38f799883c461e6ee7eb5295103777e6c02de32942617c2c71/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f505954484f4e2d3337373661623f6c6f676f3d707974686f6e266c6f676f436f6c6f723d7768697465267374796c653d666f722d7468652d6261646765" alt="Python" width="53" height="20"/>
 
+2. **[Insert in Sorted Linked List:](https://github.com/vlldnt/holbertonschool-interview/tree/main/insert_in_sorted_linked_list)** Insert a number into a sorted singly linked list, in <img src="https://camo.githubusercontent.com/1869daea328c60b988499f842daaf2c257c6bd05d9d873eceea64de40f359c29/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f432d6138623963633f6c6f676f3d266c6f676f436f6c6f723d626c61636b267374796c653d666f722d7468652d6261646765" alt="C" width="20" height="20"/>
 
-2. **[Insert in Sorted Linked List:](https://github.com/vlldnt/holbertonschool-interview/tree/main/insert_in_sorted_linked_list)**  Insert a number into a sorted singly linked list, in <img src="https://camo.githubusercontent.com/1869daea328c60b988499f842daaf2c257c6bd05d9d873eceea64de40f359c29/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f432d6138623963633f6c6f676f3d266c6f676f436f6c6f723d626c61636b267374796c653d666f722d7468652d6261646765" alt="Python" width="20" height="20"/>
+3. **[Heap Insert:](https://github.com/vlldnt/holbertonschool-interview/tree/main/heap_insert)** Implement insertion in a Max Binary Heap, maintaining heap properties, in <img src="https://camo.githubusercontent.com/1869daea328c60b988499f842daaf2c257c6bd05d9d873eceea64de40f359c29/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f432d6138623963633f6c6f676f3d266c6f676f436f6c6f723d626c61636b267374796c653d666f722d7468652d6261646765" alt="C" width="20" height="20"/>
+
+
+---
+
+<img src="https://cdn.prod.website-files.com/64107f65f30b69371e3d6bfa/65c6179aa44b63fa4f31e7ad_Holberton-Logo-Cherry.svg" width="200px" alt="Holberton Logo Cherry">
