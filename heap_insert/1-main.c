@@ -29,13 +29,13 @@ int main(void)
 
     root = NULL;
     node = heap_insert(&root, 98);
-    printf("Value inserted: %d\n", 98);
+    printf("Inserted: %d\n", node->n);
     binary_tree_print(root);
-    node = heap_insert(&root, 110);
-    printf("Value inserted: %d\n", 110);
+    node = heap_insert(&root, 402);
+    printf("\nInserted: %d\n", node->n);
     binary_tree_print(root);
-    node = heap_insert(&root, 43);
-    printf("Value inserted: %d\n", 43);
+    node = heap_insert(&root, 12);
+    printf("\nInserted: %d\n", node->n);
     binary_tree_print(root);
     node = heap_insert(&root, 46);
     printf("\nInserted: %d\n", node->n);
@@ -50,9 +50,6 @@ int main(void)
     printf("\nInserted: %d\n", node->n);
     binary_tree_print(root);
     node = heap_insert(&root, 50);
-    printf("\nInserted: %d\n", node->n);
-    binary_tree_print(root);
-    node = heap_insert(&root, 2);
     printf("\nInserted: %d\n", node->n);
     binary_tree_print(root);
     _binary_tree_delete(root);
