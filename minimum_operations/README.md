@@ -6,12 +6,29 @@ In a text file, there is a single character H. Your text editor can execute only
 - Returns an integer
 - If `n` is impossible to achieve, return `0`
 
+
+- **Exemple:**
 ```python
-Example:
+Number to reach : 9
 
-n = 9
-
-H => Copy All => Paste => HH => Paste =>HHH => Copy All => Paste => HHHHHH => Paste => HHHHHHHHH
-
-Number of operations: 6
+| Step | Action     | Result            |
+|------|------------|-------------------|
+| 0    | Start      | H                 |
+| 1    | Copy All   | H (copied)        |
+| 2    | Paste      | HH  (2)           |
+| 3    | Paste      | HHH (3)           |
+| 4    | Copy All   | HHH (copied)      |
+| 5    | Paste      | HHHHHH (6)        |
+| 6    | Paste      | HHHHHHHHH (9)     |
 ```
+
+## Étapes du programme pour n = 9
+
+| Étape | Valeur de `number` | Diviseur trouvé (`div`) | Opérations cumulées | Explication                                                                 |
+|-------|---------------------|--------------------------|----------------------|------------------------------------------------------------------------------|
+| 1     | 9                   | 3                        | 3                    | 3 est le plus petit diviseur de 9                                           |
+| 2     | 3                   | 3                        | 6                    | 3 est le plus petit diviseur de 3                                           |
+| 3     | 1                   | -                        | 6                    | Le nombre est réduit à 1, fin du traitement                                 |
+
+✅ **Résultat final : 6 opérations**
+🔍 **Décomposition en facteurs premiers** : 9 = 3 × 3 → donc 3 + 3 = 6 opérations

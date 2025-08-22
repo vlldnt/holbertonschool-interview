@@ -8,6 +8,8 @@
 
 3. **[Heap Insert:](https://github.com/vlldnt/holbertonschool-interview/tree/main/heap_insert)** Implement insertion in a Max Binary Heap, maintaining heap properties, in <img src="https://camo.githubusercontent.com/1869daea328c60b988499f842daaf2c257c6bd05d9d873eceea64de40f359c29/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f432d6138623963633f6c6f676f3d266c6f676f436f6c6f723d626c61636b267374796c653d666f722d7468652d6261646765" alt="C" width="20" height="20"/>
 
+4. **[Minimum Operations:](https://github.com/vlldnt/holbertonschool-interview/tree/main/minimum_operations)** To get exactly n H characters using the fewest operations of "Copy All" and "Paste" <img src="https://camo.githubusercontent.com/74916dd06a2b3a38f799883c461e6ee7eb5295103777e6c02de32942617c2c71/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f505954484f4e2d3337373661623f6c6f676f3d707974686f6e266c6f676f436f6c6f723d7768697465267374796c653d666f722d7468652d6261646765" alt="Python" width="53" height="20"/>
+
 
 ---
 
