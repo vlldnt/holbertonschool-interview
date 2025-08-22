@@ -3,20 +3,17 @@
     Calculate the minimum number of operations to reach exactly n characters
     using only Copy All and Paste operations.
 
-    The function finds the smallest sequence of factors that multiply to n,
-    where each factor represents a Copy All followed by (factor - 1) Paste operations.
-
     Args:
         n (int): The target number of characters.
 
     Returns:
-        int: The minimum number of operations required to reach n characters.
+        int: The minimum number of operations required to reach n characters
              Returns 0 if n is less than 2 (no operations needed).
     '''
 
 
 def minOperations(n):
-    ''' Calculate the minimum number of operations to reach exactly n characters 
+    ''' Calculate the minimum number of operations to reach exactly n
     using only Copy All and Paste operations '''
     # Copy n to number for processing
     number = n
