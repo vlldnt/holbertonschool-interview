@@ -44,6 +44,7 @@ def stats():
             if line_number % 10 == 0:
                 print_stats(total, count)
 
+
     except KeyboardInterrupt:
         pass
 
