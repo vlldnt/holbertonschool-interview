@@ -39,11 +39,10 @@ def stats():
             if status in STATUS_CODES:
                 count[status] = count.get(status, 0) + 1
                 total += size
+                line_number += 1
 
-            line_number += 1
             if line_number % 10 == 0:
                 print_stats(total, count)
-
 
     except KeyboardInterrupt:
         pass
