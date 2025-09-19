@@ -41,7 +41,7 @@ def stats():
 
             total += size
             line_number += 1
-            
+
             if line_number % 10 == 0:
                 print_stats(total, count)
 
