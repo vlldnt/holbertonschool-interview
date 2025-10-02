@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """
 UTF-8 Validation Module
 This module provides a function to validate whether a given data set
