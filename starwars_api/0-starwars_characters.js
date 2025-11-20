@@ -8,31 +8,34 @@ if (!movieNumber) {
   console.log("Need to write: ./0-starwars_characters.js <Movie ID>");
   process.exit(1);
 }
-// Fetch Starwars API with a get for the Movie ID
+
+// Api Starwasr fetch to get movie information body
 const url = `https://swapi-api.hbtn.io/api/films/${movieNumber}/`;
 
-request(url, (error, response, body) => {
-  if (error) {
-    console.error(error);
-    process.exit(1);
-  }
-  if (response.statusCode !== 200) {
+request(url, (err, res, body) => {
+  if (err) {
     console.log("Movie not found. Try between 1 and 7.");
     process.exit(1);
   }
 
   const movie = JSON.parse(body);
+  const urlsCharacters = movie.characters;
 
-  // List of URL fetched in the request before
-  urlsCharacters = movie.characters;
+  // Loop to keep the order
+  const printCharacter = (index) => {
+    if (index >= urlsCharacters.length) {
+      return;
+    }
 
-  // For each url in the list of characters print the name of the character
-  urlsCharacters.forEach((characterUrl) => {
-    request(characterUrl, (err, res, charBody) => {
+    // Rezquest and print the character name
+    request(urlsCharacters[index], (err, res, body) => {
       if (!err) {
-        const character = JSON.parse(charBody);
+        const character = JSON.parse(body);
         console.log(character.name);
       }
+      printCharacter(index + 1);
     });
-  });
+  };
+
+  printCharacter(0);
 });
