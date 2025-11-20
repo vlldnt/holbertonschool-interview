@@ -1,11 +1,11 @@
 #!/usr/bin/node
 
-const request = require("request");
+const request = require('request');
 
 const movieNumber = process.argv[2];
 
 if (!movieNumber) {
-  console.log("Need to write: ./0-starwars_characters.js <Movie ID>");
+  console.log('Need to write: ./0-starwars_characters.js <Movie ID>');
   process.exit(1);
 }
 
@@ -14,7 +14,7 @@ const url = `https://swapi-api.hbtn.io/api/films/${movieNumber}/`;
 
 request(url, (err, res, body) => {
   if (err) {
-    console.log("Movie not found. Try between 1 and 7.");
+    console.log('Movie not found. Try between 1 and 7.');
     process.exit(1);
   }
 
@@ -27,7 +27,7 @@ request(url, (err, res, body) => {
       return;
     }
 
-    // Rezquest and print the character name
+    // Request and print the character name
     request(urlsCharacters[index], (err, res, body) => {
       if (!err) {
         const character = JSON.parse(body);
