@@ -26,6 +26,7 @@
 | 16 | [Menger](./menger) | Draw a 2D Menger Sponge fractal of a given level |
 | 17 | [Palindrome Integer](./palindrome_integer) | Check if an unsigned integer is a palindrome |
 | 18 | [Infinite Multiplication](./infinite_multiplication) | Multiply two arbitrarily large positive numbers |
+| 19 | [AVL Trees](./avl_trees) | Check if a binary tree is a valid AVL Tree |
 
 ### Python Projects <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20px" alt="Python">
 
@@ -40,6 +41,7 @@
 | 7 | [Rotate 2D Matrix](./rotate_2d_matrix) | Rotate an n×n matrix 90° clockwise in-place |
 | 8 | [Rain](./rain) | Calculate trapped rainwater between walls |
 | 9 | [Count It](./count_it) | Count keyword occurrences via the Reddit API |
+| 10 | [Island Perimeter](./island_perimeter) | Calculate the perimeter of an island in a grid |
 
 ### JavaScript Projects <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="20px" alt="JavaScript">
 
