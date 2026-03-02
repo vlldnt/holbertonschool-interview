@@ -2,17 +2,51 @@
 
 *This repository features diverse algorithmic and technical interview preparation projects from Holberton School, each designed to improve data structure understanding, algorithmic thinking, and coding efficiency.*
 
-1. **[Lockboxes:](https://github.com/vlldnt/holbertonschool-interview/tree/main/lockboxes)** Checks if all boxes can be opened based on the keys inside each box, in <img src="https://camo.githubusercontent.com/74916dd06a2b3a38f799883c461e6ee7eb5295103777e6c02de32942617c2c71/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f505954484f4e2d3337373661623f6c6f676f3d707974686f6e266c6f676f436f6c6f723d7768697465267374796c653d666f722d7468652d6261646765" alt="Python" width="53" height="20"/>
+---
 
-2. **[Insert in Sorted Linked List:](https://github.com/vlldnt/holbertonschool-interview/tree/main/insert_in_sorted_linked_list)** Insert a number into a sorted singly linked list, in <img src="https://camo.githubusercontent.com/1869daea328c60b988499f842daaf2c257c6bd05d9d873eceea64de40f359c29/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f432d6138623963633f6c6f676f3d266c6f676f436f6c6f723d626c61636b267374796c653d666f722d7468652d6261646765" alt="C" width="20" height="20"/>
+### C Projects
 
-3. **[Heap Insert:](https://github.com/vlldnt/holbertonschool-interview/tree/main/heap_insert)** Implement insertion in a Max Binary Heap, maintaining heap properties, in <img src="https://camo.githubusercontent.com/1869daea328c60b988499f842daaf2c257c6bd05d9d873eceea64de40f359c29/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f432d6138623963633f6c6f676f3d266c6f676f436f6c6f723d626c61636b267374796c653d666f722d7468652d6261646765" alt="C" width="20" height="20"/>
+| # | Project | Description |
+|:-:|---------|-------------|
+| 1 | [Insert in Sorted Linked List](./insert_in_sorted_linked_list) | Insert a number into a sorted singly linked list |
+| 2 | [Heap Insert](./heap_insert) | Insertion in a Max Binary Heap, maintaining heap properties |
+| 3 | [Heap Extract](./heap_extract) | Extract the root node from a Max Binary Heap |
+| 4 | [Heap Sort](./heap_sort) | Sort an array using the Heap Sort algorithm |
+| 5 | [Sandpiles](./sandpiles) | Sum two 3x3 sandpile grids and stabilize the result |
+| 6 | [Linked List Palindrome](./linked_list_palindrome) | Check if a singly linked list is a palindrome |
+| 7 | [Linked List Cycle](./linked_list_cycle) | Detect a cycle in a singly linked list (Floyd's algorithm) |
+| 8 | [Find the Loop](./find_the_loop) | Find the start node of a loop in a linked list |
+| 9 | [Double Circular Linked List](./double_circular_linked_list) | Insert nodes in a sorted doubly circular linked list |
+| 10 | [Linear Skip](./linear_skip) | Search in a skip list with express lane for O(√n) lookup |
+| 11 | [Sorted Array to AVL](./sorted_array_to_avl) | Build an AVL tree from a sorted array |
+| 12 | [Advanced Binary Search](./advanced_binary_search) | Recursive binary search returning the first occurrence |
+| 13 | [Merge Sort](./merge_sort) | Sort an array using top-down Merge Sort algorithm |
+| 14 | [Radix Sort](./radix_sort) | Sort an array using LSD Radix Sort with counting sort |
+| 15 | [Slide Line](./slide_line) | Slide and merge a line of integers (2048 game mechanic) |
+| 16 | [Menger](./menger) | Draw a 2D Menger Sponge fractal of a given level |
+| 17 | [Palindrome Integer](./palindrome_integer) | Check if an unsigned integer is a palindrome |
+| 18 | [Infinite Multiplication](./infinite_multiplication) | Multiply two arbitrarily large positive numbers |
 
-4. **[Minimum Operations:](https://github.com/vlldnt/holbertonschool-interview/tree/main/minimum_operations)** To get exactly n H characters using the fewest operations of "Copy All" and "Paste" <img src="https://camo.githubusercontent.com/74916dd06a2b3a38f799883c461e6ee7eb5295103777e6c02de32942617c2c71/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f505954484f4e2d3337373661623f6c6f676f3d707974686f6e266c6f676f436f6c6f723d7768697465267374796c653d666f722d7468652d6261646765" alt="Python" width="53" height="20"/>
+### Python Projects
 
-5. **[Sandpiles:](https://github.com/vlldnt/holbertonschool-interview/tree/main/sandpiles)** Add two grid and stabilize <img src="https://camo.githubusercontent.com/1869daea328c60b988499f842daaf2c257c6bd05d9d873eceea64de40f359c29/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f432d6138623963633f6c6f676f3d266c6f676f436f6c6f723d626c61636b267374796c653d666f722d7468652d6261646765" alt="C" width="20" height="20"/>
+| # | Project | Description |
+|:-:|---------|-------------|
+| 1 | [Lockboxes](./lockboxes) | Check if all boxes can be opened using keys found inside |
+| 2 | [Minimum Operations](./minimum_operations) | Fewest "Copy All" / "Paste" operations to get n characters |
+| 3 | [Log Parsing](./log_parsing) | Parse stdin line by line and compute HTTP log metrics |
+| 4 | [UTF-8 Validation](./utf8_validation) | Validate if a data set represents valid UTF-8 encoding |
+| 5 | [N Queens](./nqueens) | Solve the N Queens puzzle using backtracking |
+| 6 | [Making Change](./making_change) | Return minimum coins needed to meet a total (or -1) |
+| 7 | [Rotate 2D Matrix](./rotate_2d_matrix) | Rotate an n×n matrix 90° clockwise in-place |
+| 8 | [Rain](./rain) | Calculate trapped rainwater between walls |
+| 9 | [Count It](./count_it) | Count keyword occurrences via the Reddit API |
 
-6. **[Linked List Palindrome:](https://github.com/vlldnt/holbertonschool-interview/tree/main/linked_list_palindrome)** Add two grid and stabilize <img src="https://camo.githubusercontent.com/1869daea328c60b988499f842daaf2c257c6bd05d9d873eceea64de40f359c29/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f432d6138623963633f6c6f676f3d266c6f676f436f6c6f723d626c61636b267374796c653d666f722d7468652d6261646765" alt="C" width="20" height="20"/>
+### JavaScript Projects
+
+| # | Project | Description |
+|:-:|---------|-------------|
+| 1 | [Star Wars API](./starwars_api) | Fetch and display Star Wars characters using the SWAPI |
+
 ---
 
 <img src="https://cdn.prod.website-files.com/64107f65f30b69371e3d6bfa/65c6179aa44b63fa4f31e7ad_Holberton-Logo-Cherry.svg" width="200px" alt="Holberton Logo Cherry">
