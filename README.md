@@ -4,7 +4,7 @@
 
 ---
 
-### C Projects
+###  C Projects <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="20px" alt="C">
 
 | # | Project | Description |
 |:-:|---------|-------------|
@@ -27,7 +27,7 @@
 | 17 | [Palindrome Integer](./palindrome_integer) | Check if an unsigned integer is a palindrome |
 | 18 | [Infinite Multiplication](./infinite_multiplication) | Multiply two arbitrarily large positive numbers |
 
-### Python Projects
+### Python Projects <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20px" alt="Python">
 
 | # | Project | Description |
 |:-:|---------|-------------|
@@ -41,7 +41,7 @@
 | 8 | [Rain](./rain) | Calculate trapped rainwater between walls |
 | 9 | [Count It](./count_it) | Count keyword occurrences via the Reddit API |
 
-### JavaScript Projects
+### JavaScript Projects <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="20px" alt="JavaScript">
 
 | # | Project | Description |
 |:-:|---------|-------------|
