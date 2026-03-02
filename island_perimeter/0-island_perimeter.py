@@ -7,11 +7,12 @@ def island_perimeter(grid):
     if not grid:
         return 0
 
-    size = len(grid)
+    row = len(grid)
     perimeter = 0
 
-    for i in range(size):
-        for j in range(size):
+    for i in range(row):
+        col = len(grid[i])
+        for j in range(col):
             if grid[i][j] == 1:
                 perimeter += 4
                 # Check the top case
