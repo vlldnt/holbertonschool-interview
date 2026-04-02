@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''
-    Function that returns a list of listss of integer 
+    Function that returns a list of listss of integer
     représentatuin the pascale truengle of n
 '''
 
