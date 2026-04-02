@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "holberton.h"
 
 /**
@@ -9,14 +10,37 @@
  */
 int wildcmp(char *s1, char *s2)
 {
-	if (*s2 == '\0')
-		return (*s1 == '\0');
+	char *star = NULL;
+	char *match = s1;
 
-	if (*s2 == '*')
-		return (wildcmp(s1, s2 + 1) || (*s1 && wildcmp(s1 + 1, s2)));
+	while (*s1)
+	{
+		if (*s1 == *s2)
+		{
+			/* characters match: advance both pointers */
+			s1++;
+			s2++;
+		}
+		else if (*s2 == '*')
+		{
+			/* wildcard found: save its position and current s1 */
+			star = s2;
+			match = s1;
+			s2++;
+		}
+		else if (star)
+		{
+			/* mismatch but a previous '*' exists: backtrack */
+			s2 = star + 1;
+			match++;
+			s1 = match;
+		}
+		else
+			return (0);
+	}
+	/* skip any trailing stars in the pattern */
+	while (*s2 == '*')
+		s2++;
 
-	if (*s1 == *s2)
-		return (wildcmp(s1 + 1, s2 + 1));
-
-	return (0);
+	return (*s2 == '\0');
 }
