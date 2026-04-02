@@ -27,6 +27,8 @@
 | 17 | [Palindrome Integer](./palindrome_integer) | Check if an unsigned integer is a palindrome |
 | 18 | [Infinite Multiplication](./infinite_multiplication) | Multiply two arbitrarily large positive numbers |
 | 19 | [AVL Trees](./avl_trees) | Check if a binary tree is a valid AVL Tree |
+| 20 | [Wild Compare](./wild_cmp) | Compare strings with `*` wildcard matching any sequence |
+| 21 | [Regex](./regex) | Match strings against patterns with `.` (any char) and `*` (any sequence) |
 
 ### Python Projects <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20px" alt="Python">
 
@@ -42,6 +44,7 @@
 | 8 | [Rain](./rain) | Calculate trapped rainwater between walls |
 | 9 | [Count It](./count_it) | Count keyword occurrences via the Reddit API |
 | 10 | [Island Perimeter](./island_perimeter) | Calculate the perimeter of an island in a grid |
+| 11 | [Pascal Triangle](./pascal_triangle) | Generate Pascal's triangle up to n rows |
 
 ### JavaScript Projects <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="20px" alt="JavaScript">
 
