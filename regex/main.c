@@ -3,13 +3,10 @@
 
 #include "regex.h"
 
-#define TEST_MATCH(s, p)                                                       \
-	do                                                                         \
-	{                                                                          \
-		{                                                                      \
-			int res = regex_match(s, p);                                       \
-			printf("%s -> %s = %d\n", s, p, res);                              \
-		}                                                                      \
+#define TEST_MATCH(s, p) \
+	do {                                                                       \
+		int res = regex_match(s, p);                                           \
+		printf("%s -> %s = %d\n", s, p, res);                                  \
 	} while (0)
 
 /**
